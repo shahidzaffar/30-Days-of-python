@@ -1,0 +1,26 @@
+# first commit to show some messages and introduction to the python programming. 
+
+print("-------------------------> Some basic operations")
+
+print("Addition : "+str(2+3))
+print("Subtraction : "+str(9-3))
+print("Multiplications : "+str(2*3))
+print("Division : "+str(9/3))
+print("Floor Division : "+str(8//3))
+print("Power : "+str(3**3))
+print("Modulus i.e Finding reminder : "+str(8%3))
+
+"""
+Cheching DataTypes of some data
+"""
+print()
+print()
+
+print("Integer Data type : "+str(type(10)))
+print("Float Data type  : "+str(type(10.95)))
+print("Mix or Complex data type : "+str(type(2+3j)))
+print("String data type : "+str(type("Shahid")))
+print("List data type : "+str(type([1,3,56,14,25,54])))
+print("checking type  : "+str(type({1,8,6,9,5})))
+
+print("Dictionary Datatype : "+str(type({"name":"shahid", "age":25})))
